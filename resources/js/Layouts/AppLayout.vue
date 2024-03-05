@@ -68,7 +68,7 @@ export default defineComponent({
 
         logout() {
             let vm = this;
-            if (this.$page.props.user.is_cas) {
+            if (this.$page.props.auth.user.is_cas) {
                 console.log("Logging out of cas");
                 const win = window.open(this.route("cas.logout"), "_blank");
                 setTimeout(function () {

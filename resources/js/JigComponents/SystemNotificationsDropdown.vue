@@ -159,8 +159,8 @@ export default defineComponent({
     mounted() {
         this.notifications = this.unreadNotifications;
         this.unreadCount = this.notifications.length;
-        if (this.$page.props.user) {
-            /*Echo.private(`App.Models.User.${this.$page.props.user.id}`)
+        if (this.$page.props.auth.user) {
+            /*Echo.private(`App.Models.User.${this.$page.props.auth.user.id}`)
                 .notification((notification) => {
                     console.log(notification);
                     this.fetchNotification(notification.id);
@@ -174,7 +174,6 @@ export default defineComponent({
             let res = await axios.get(
                 this.route("api.me.notifications.single.read", noti.id)
             );
-            console.log(res);
             let idx = this.notifications.findIndex(
                 (n) => n.id === res.data?.payload.id
             );

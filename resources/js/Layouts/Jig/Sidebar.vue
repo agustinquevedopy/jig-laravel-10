@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="relative z-40 flex flex-wrap items-center justify-between px-0 shadow-xl no-scrollbar bg-primary-800 md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-no-wrap md:overflow-hidden"
+        class="relative z-40 flex flex-wrap items-center justify-between px-0 shadow-xl no-scrollbar bg-gray-400 md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-no-wrap md:overflow-hidden"
         :class="{'md:w-64': !minimized, 'w-16 hover:w-64': minimized}"
     >
         <div

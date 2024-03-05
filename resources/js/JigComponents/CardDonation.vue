@@ -77,15 +77,13 @@ export default defineComponent({
             return this.show;
         },
         currentBalance() {
-            return this.type ==='meal-allowance' ? this.$page.props.user.card_balance : this.$page.props.user.wallet_balance;
+            return this.type ==='meal-allowance' ? this.$page.props.auth.user.card_balance : this.$page.props.auth.user.wallet_balance;
         }
     },
     mounted() {
     },
     methods: {
         detectUser: _.debounce(async function(val) {
-            console.log(`${val} Identifying user...`);
-
             const vm = this;
             vm.identifiedUser = null;
             vm.recipientNumber = null;

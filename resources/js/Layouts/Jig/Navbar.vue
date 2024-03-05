@@ -1,21 +1,19 @@
 <template>
     <!-- Navbar -->
-    <nav class="sticky top-0 z-20 w-full bg-primary md:-top-0">
+    <nav class="sticky top-0 z-20 w-full bg-gray-400 md:-top-0">
         <!-- Primary Navigation Menu -->
         <div class="pr-4 mx-auto sm:pr-6 lg:pr-8">
             <div class="flex justify-between h-16">
                 <div class="flex">
                     <!-- Logo -->
-                    <application-logo class="h-full px-8 bg-primary" />
+                    <application-logo class="h-full px-8 bg-gray-400" />
                     <!-- Navigation Links -->
-                    <div
-                        class="hidden  sm:-my-px text-gray-50 hover:text-gray-200 sm:ml-10 sm:flex"
-                    >
+                    <div class="hidden sm:-my-px text-gray-50 hover:text-gray-200 sm:ml-10 sm:flex">
                         <slot> </slot>
                     </div>
                 </div>
 
-                <div class="hidden sm:flex sm:items-center sm:ml-6">
+                <div class="hidden sm:flex sm:items-center sm:ml-6 pr-6">
                     <div class="relative ml-3">
                         <!-- Teams Dropdown -->
                         <jet-dropdown

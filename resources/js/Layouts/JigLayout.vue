@@ -27,7 +27,7 @@
 
             <div
                 v-if="!fullScreenBody"
-                class="relative max-w-full pb-32 bg-primary"
+                class="relative max-w-full pb-32 bg-gray-400"
             >
                 <div
                     class="pb-8 mt-2 border-t lg:mx-4 border-primary-400"
@@ -253,7 +253,7 @@
                 </div>
             </div>
             <div
-                class="flex flex-col justify-between flex-1 w-full px-1 mx-auto bg-gray-200  lg:px-10"
+                class="flex flex-col justify-between flex-1 w-full px-1 mx-auto bg-gray-200 lg:px-10"
                 :class="{
                     '-mt-24': !fullScreenBody,
                     'pt-4 bg-gray-500': fullScreenBody,
