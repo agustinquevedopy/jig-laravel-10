@@ -277,7 +277,7 @@
                                         href="https://github.com/savannabits"
                                         class="py-1 text-sm font-semibold text-gray-600  hover:text-gray-800"
                                     >
-                                        Savannabits
+                                        Temiandu
                                     </a>
                                 </div>
                             </div>
@@ -290,7 +290,7 @@
                                             href="https://www.savannabits.com"
                                             class="block px-3 py-1 text-sm font-semibold text-gray-700  hover:text-gray-900"
                                         >
-                                            Savannabits
+                                            Temiandu
                                         </a>
                                     </li>
                                     <li>

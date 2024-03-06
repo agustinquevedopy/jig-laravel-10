@@ -163,6 +163,9 @@ export default defineComponent({
             }
         }
     },
+    created() {
+        console.log(this.menuItems)
+    },
     methods: {
         toggleCollapseShow: function(classes) {
             this.collapseShow = classes;
