@@ -17,6 +17,7 @@
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0.2",
         "postcss": "^8.4.31",
+        "sass": "^1.71.1",
         "tailwindcss": "^3.2.1",
         "vite": "^5.0.0",
         "vue": "^3.4.0"
@@ -32,6 +33,7 @@
         "popper.js": "^1.16.1",
         "vue-flatpickr-component": "^11.0.4",
         "vue-numerals": "^4.0.6",
+        "vue-select": "^4.0.0-beta.6",
         "vue3-vt-notifications": "^1.0.1"
     }
 }

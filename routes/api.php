@@ -40,3 +40,17 @@ Route::group(["middleware"=>['auth:sanctum', 'verified'],'as' => 'api.'], functi
     Route::get('/permissions/dt', [\App\Http\Controllers\API\PermissionController::class,'dt'])->name('permissions.dt');
     Route::apiResource('/permissions', \App\Http\Controllers\API\PermissionController::class)->parameters(["permissions" => "permission"]);
 });
+
+
+/* Auto-generated shelves api routes */
+Route::group(["middleware"=>['auth:sanctum', 'verified'],'as' => 'api.'], function () {
+    Route::get('/shelves/dt', [\App\Http\Controllers\API\ShelfController::class,'dt'])->name('shelves.dt');
+    Route::apiResource('/shelves', \App\Http\Controllers\API\ShelfController::class)->parameters(["shelves" => "shelf"]);
+});
+
+
+/* Auto-generated stocks api routes */
+Route::group(["middleware"=>['auth:sanctum', 'verified'],'as' => 'api.'], function () {
+    Route::get('/stocks/dt', [\App\Http\Controllers\API\StockController::class,'dt'])->name('stocks.dt');
+    Route::apiResource('/stocks', \App\Http\Controllers\API\StockController::class)->parameters(["stocks" => "stock"]);
+});

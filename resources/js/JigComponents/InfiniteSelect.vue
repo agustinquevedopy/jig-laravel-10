@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import vSelect from "vue-select/src/index";
+import vSelect from "vue-select";
 import { defineComponent } from "vue";
 export default defineComponent({
     name: "InfiniteSelect",
@@ -170,7 +170,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-@import "vue-select/src/scss/vue-select.scss";
+@import "vue-select/dist/vue-select.css";
 
 .loader {
     text-align: center;

@@ -36,5 +36,23 @@
         "isTitle": false,
         "isParent": false,
         "children": []
+    },
+    "shelves": {
+        "route": "admin.shelves.index",
+        "title": "Shelves",
+        "routePattern": "admin.shelves.*",
+        "faIcon": "far fa-clone",
+        "isTitle": false,
+        "isParent": false,
+        "children": []
+    },
+    "stocks": {
+        "route": "admin.stocks.index",
+        "title": "Stocks",
+        "routePattern": "admin.stocks.*",
+        "faIcon": "far fa-clone",
+        "isTitle": false,
+        "isParent": false,
+        "children": []
     }
 }
